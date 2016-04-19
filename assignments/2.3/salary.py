@@ -1,6 +1,6 @@
 # This first line is provided for you
 
-hrs = input("Enter Hours:")
-rate = 2.75
-result = hrs * rate
+hrs = raw_input("Enter Hours:")
+rate = raw_input("Enter Rate:")
+result = float(hrs) * float(rate)
 print result
