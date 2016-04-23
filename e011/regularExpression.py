@@ -8,4 +8,3 @@ for line in handl:
 	y = re.findall('^From .*@([^ ]*)',line)		# domains
 	if len(y) != 0:
 		result.append(y)
-print result
