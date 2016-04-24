@@ -38,7 +38,7 @@ from BeautifulSoup import *
 
 url = 'http://python-data.dr-chuck.net/known_by_Dineo.html'
 pos = 	18	#int(raw_input('Enter position: '))
-count = 7	#int(raw_input('Enter count: '))
+count = 7		#int(raw_input('Enter count: '))
 
 i = 0
 while i < count+1:
